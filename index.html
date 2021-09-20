@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>TestCase</title>
+</head>
+<body>
+    <div class="holiday">
+        <div class="holiday__input">
+            <h1 class="holiday__input-title">Поиск национальный праздников</h1>
+            <div class="holiday__input-text"> Укажите год: </div>
+            <label>
+                <input class="holiday__input-year"/>
+            </label>
+
+            <div class="holiday__input-text"> Укажите страну: </div>
+            <label>
+                <input class="holiday__input-country"/>
+            </label>
+
+        </div>
+        <div class="holiday__button">
+            <button class="holiday__button-get">Загрузить</button>
+            <button class="holiday__button-clean">Очистить</button>
+        </div>
+        <div class="holiday__response">
+        <!--    <table class="holiday__table">
+                <tr class="holiday__table-row">
+                    <th class="holiday__table-col">Дата</th>
+                    <th class="holiday__table-col">Праздник</th>
+                </tr>
+            </table>-->
+         </div>
+    </div>
+
+    <script src="fetch.js"></script>
+</body>
+</html>

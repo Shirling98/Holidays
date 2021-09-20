@@ -1,0 +1,67 @@
+.holiday {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif; }
+  .holiday__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .holiday__input-title {
+      color: #5F9EA0; }
+    .holiday__input-text {
+      color: #4682B4;
+      font-size: 20px;
+      margin-bottom: 10px; }
+    .holiday__input-year {
+      border: 0;
+      border-bottom: 1px solid #4682B4;
+      background-color: rgba(0, 0, 0, 0);
+      outline: 0;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #5F9EA0; }
+    .holiday__input-country {
+      border: 0;
+      border-bottom: 1px solid #4682B4;
+      background-color: rgba(0, 0, 0, 0);
+      outline: 0;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #5F9EA0; }
+  .holiday__button {
+    margin-bottom: 30px; }
+    .holiday__button-get {
+      border-radius: 50px;
+      background-color: #fff;
+      color: #4682B4;
+      user-select: none;
+      border: 1px solid #4682B4;
+      margin-right: 60px;
+      width: 80px;
+      height: 30px; }
+      .holiday__button-get:hover {
+        border: 1px solid #5F9EA0;
+        color: #5F9EA0; }
+    .holiday__button-clean {
+      border-radius: 50px;
+      background-color: #fff;
+      color: #5F9EA0;
+      user-select: none;
+      border: 1px solid #5F9EA0;
+      margin-left: 60px;
+      width: 80px;
+      height: 30px; }
+      .holiday__button-clean:hover {
+        border: 1px solid #4682B4;
+        color: #4682B4; }
+  .holiday__table {
+    margin: 0 auto;
+    text-align: center;
+    color: #4682B4; }
+    .holiday__table td {
+      width: 250px; }
+
+/*# sourceMappingURL=style.css.map */

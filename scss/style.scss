@@ -1,0 +1,90 @@
+$text_color: #4682B4;
+$title_color: #5F9EA0;
+
+.holiday {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+
+  &__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-title {
+      color: $title_color;
+    }
+
+    &-text{
+      color: $text_color;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    &-year {
+      border: 0;
+      border-bottom: 1px solid $text_color;
+      background-color: rgba(0,0,0,0);
+      outline: 0;
+      margin-bottom: 30px;
+      text-align: center;
+      color: $title_color;
+    }
+
+    &-country {
+      border: 0;
+      border-bottom: 1px solid $text_color;
+      background-color: rgba(0,0,0,0);
+      outline: 0;
+      margin-bottom: 30px;
+      text-align: center;
+      color: $title_color;
+    }
+  }
+
+  &__button {
+    margin-bottom: 30px;
+    &-get{
+      border-radius: 50px;
+      background-color: #fff;
+      color: $text_color;
+      user-select: none;
+      border: 1px solid $text_color;
+      margin-right: 60px;
+      width: 80px;
+      height: 30px;
+      &:hover {
+        border: 1px solid $title_color;
+        color: $title_color;
+      }
+    }
+
+    &-clean {
+      border-radius: 50px;
+      background-color: #fff;
+      color: $title_color;
+      user-select: none;
+      border: 1px solid $title_color;
+      margin-left: 60px;
+      width: 80px;
+      height: 30px;
+      &:hover {
+        border: 1px solid $text_color;
+        color: $text_color;
+      }
+    }
+  }
+
+  &__table {
+    margin: 0 auto;
+    text-align: center;
+    color: $text_color;
+
+    td {
+      width: 250px;
+    }
+  }
+}
